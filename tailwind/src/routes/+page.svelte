@@ -1,5 +1,3 @@
-
-
 <style>
     @tailwind base;
     @tailwind components;

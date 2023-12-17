@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+</script>
+
+<div>
+    <iframe src="https://slides.com/the-sides/svelte-101/embed" title="Svelte 101" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+<style>
+    iframe {
+        height: calc(100vh - 64px);
+        width: 100%;
+    }
+</style>

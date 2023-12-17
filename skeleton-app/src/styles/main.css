@@ -1,0 +1,12 @@
+@import './normalize.css';
+body {
+    background-color: #121837;
+}
+body * {
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section {
+    padding: 4rem;
+}
