@@ -6,6 +6,7 @@
     <h2>{text}</h2>
 </div>
 
+
 <style>
     div {
         background-color: black;

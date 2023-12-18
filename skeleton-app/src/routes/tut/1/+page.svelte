@@ -13,6 +13,12 @@
 
 <h3>I will get into the directory and file structure once we're looking at SvelteKit</h3>
 
+<hr>
+<h1>Variables</h1>
+<p>Variables set in the {'<script>'} tag are available in HTML elements</p>
+<p>Expressions within brackets:</p>
+<p>2+2 = </p>
+
 <style>
     * {
         margin: 2rem;

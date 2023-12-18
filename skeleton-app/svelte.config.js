@@ -1,3 +1,5 @@
+// I'm curious about what a completely static build would look like. 
+// https://stackoverflow.com/a/74566091
 import adapter from '@sveltejs/adapter-auto';
 
 /** @type {import('@sveltejs/kit').Config} */

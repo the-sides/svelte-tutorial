@@ -11,7 +11,7 @@
     <Monitor text="World"/>
 
     <p>Styles are still scoped to the component.</p>
-    <h2>I'M THE SAME ELEMENT AND NOT AFFECTED!</h2>
+    <h2>I'M THE SAME ELEMENT {'<h3>'} AND NOT AFFECTED!</h2>
 </section>
 
 <style>
