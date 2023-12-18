@@ -4,7 +4,7 @@
 <nav>
     <a href="/">Home</a>
     <a href="/tut">Tutorial</a>
-    <a href="/">Movies</a>
+    <a href="/movies">Movies</a>
 </nav>
 <main>
     <slot/>
