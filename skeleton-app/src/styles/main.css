@@ -15,3 +15,9 @@ code {
     font-size: 18px;
     font-family: monospace;
 }
+
+button {
+    margin-top: 0.5rem;
+    display: block;
+    color: black;
+}

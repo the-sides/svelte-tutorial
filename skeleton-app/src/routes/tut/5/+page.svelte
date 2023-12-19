@@ -40,9 +40,4 @@
         display: block;
         padding: 2rem;
     }
-    button {
-        margin-top: 0.5rem;
-        display: block;
-        color: black;
-    }
 </style>
