@@ -3,9 +3,10 @@
 <a href="/tut/3">3. Dynamic Attributes via prop spreading </a>
 <a href="/tut/4">4. If statements and Loops </a>
 <a href="/tut/5">5. Event Handlers </a>
-<!-- Binding ?? -->
 <a href="/tut/6">6. Reactivity </a>
-<a href="/tut/7">7. Async code fetching from API </a>
+<a href="/tut/7">7. Bindings </a>
+<a href="/tut/8">8. SvelteKit! </a>
+<a href="/tut/8">8. Async code fetching from API </a>
 <a href="/tut/8">8. Setting up API with SvelteKit </a>
 <a href="/tut/9">9. Simple state management settings reviews for titles </a>
 <a href="/tut/10">10. Search filter </a>

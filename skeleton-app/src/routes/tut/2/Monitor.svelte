@@ -1,9 +1,12 @@
 <script>
     export let text;
+    // Default prop value
+    export let color = 'white';
+
 </script>
 
 <div>
-    <h2>{text}</h2>
+    <h2 style="--text-color: {color}">{text}</h2>
 </div>
 
 
@@ -14,6 +17,9 @@
         border: 1px solid white;
         padding: 0.5rem 2rem;
         position: relative;
+    }
+    h2 {
+        color: var(--text-color);
     }
     div::after {
         content: '';
