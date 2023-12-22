@@ -22,9 +22,3 @@
     <p>Hands: {hands}</p>
     <input type="range" bind:value={hands} min={0} max={4}>
 </section>
-
-<style>
-    div {
-        margin: 2rem 0;
-    }
-</style>
