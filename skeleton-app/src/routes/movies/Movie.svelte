@@ -1,8 +1,11 @@
 <script>
+    import Reviews from "./Reviews.svelte";
+
     export let title;
     export let release_date;
     export let overview;
     export let poster_path;
+    export let id;
     let release_year = release_date.split("-")[0] ?? "";
 </script>
 
@@ -11,6 +14,7 @@
     <div>
         <h2>{title} ({release_year})</h2>
         <p>{overview}</p>
+        <Reviews {id}/>
     </div>
 </div>
 
@@ -19,5 +23,8 @@
         display: flex;
         gap: 1rem;
         margin-top: 3rem;
+    }
+    img {
+        object-fit: cover;
     }
 </style>

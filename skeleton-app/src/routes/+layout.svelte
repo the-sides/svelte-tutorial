@@ -1,20 +1,31 @@
 <script>
-    import '../styles/main.css';
+    import "../styles/main.css";
+    import { reviews } from "$lib";
 </script>
+
 <nav>
-    <a href="/">Home</a>
-    <a href="/tut">Tutorial</a>
-    <a href="/movies">Movies</a>
+    <div>
+        <a href="/">Home</a>
+        <a href="/tut">Tutorial</a>
+        <a href="/movies">Movies</a>
+    </div>
+    <p>Reviews: {Object.keys($reviews).length}</p>
 </nav>
 <main>
-    <slot/>
+    <slot />
 </main>
+
 <style>
     nav {
+        display: flex;
+        justify-content: space-between;
         position: fixed;
         top: 0;
         width: 100%;
-        border-bottom: 14px double #ffffff ;
+        border-bottom: 14px double #ffffff;
+    }
+    p {
+        padding-right: 1rem;
     }
     a {
         color: inherit;
