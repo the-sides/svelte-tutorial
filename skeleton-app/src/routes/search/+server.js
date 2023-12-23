@@ -1,16 +1,12 @@
 import { json } from '@sveltejs/kit';
+import { env } from '$env/dynamic/public'
 
 /** @type {import('./$types').RequestHandler} */
-export function GET({ request }) {
-    // log all headers
-    console.log(...request.headers);
+export async function GET({ url }) {
+    // https://joyofcode.xyz/sveltekit-environment-variables
+    const query = url.searchParams.get('q');
+    const movieUrl = `https://api.themoviedb.org/3/search/movie?api_key=${env.PUBLIC_READ_TOKEN}&query=${query}`;
+    const res = await fetch(movieUrl).then(d => d.json());
 
-    // create a JSON Response using a header we received
-    return json({
-        // retrieve a specific header
-        userAgent: request.headers.get('user-agent')
-    }, {
-        // set a header on the response
-        headers: { 'x-custom-header': 'potato' }
-    });
+    return json(res);
 }

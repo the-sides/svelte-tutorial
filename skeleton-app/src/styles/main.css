@@ -1,6 +1,8 @@
 @import './normalize.css';
 body {
     background-color: #121837;
+    position: relative;
+    padding-top: 4rem;
 }
 body * {
     color: #fff;
