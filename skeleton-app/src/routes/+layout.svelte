@@ -4,13 +4,16 @@
 <nav>
     <a href="/">Home</a>
     <a href="/tut">Tutorial</a>
-    <a href="/">Movies</a>
+    <a href="/movies">Movies</a>
 </nav>
 <main>
     <slot/>
 </main>
 <style>
     nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
         border-bottom: 14px double #ffffff ;
     }
     a {
