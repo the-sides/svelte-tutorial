@@ -1,8 +1,17 @@
 <script>
-    import { Confetti } from "svelte-confetti"
+    const fetchRes = new Promise((res, _rej) =>
+        setTimeout(() => res("finished"), 3000),
+    );
 </script>
+
 <section>
-    <h2>Congrats! You now know <sub>(or at least can recognize)</sub> Svelte!</h2>
-    <h2>Intro to SvelteKit</h2>
-    <Confetti x={[-1, 5]} y={[-1, 5]} />
+    <h1>Asynchronous code</h1>
+    <p>Svelte provides a logic block for handling promises.</p>
+    {#await fetchRes}
+        <p>waiting...</p>
+    {:then result}
+        <p>Result: {result}</p>
+    {:catch err}
+        <p>The following error occured: {err}</p>
+    {/await}
 </section>

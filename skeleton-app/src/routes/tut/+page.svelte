@@ -5,11 +5,10 @@
 <a href="/tut/5">5. Event Handlers </a>
 <a href="/tut/6">6. Reactivity </a>
 <a href="/tut/7">7. Bindings </a>
-<a href="/tut/8">8. SvelteKit! </a>
-<a href="/tut/8">8. Async code fetching from API </a>
-<a href="/tut/8">8. Setting up API with SvelteKit </a>
-<a href="/tut/9">9. Simple state management settings reviews for titles </a>
-<a href="/tut/10">10. Search filter </a>
+<a href="/tut/8">8. Asynchronous code </a>
+<a href="/tut/9">9. SvelteKit! </a>
+<a href="/tut/10">10. Setting up API routes </a>
+<a href="/tut/workshop">Workshop: Make a Movie app </a>
 
 <style>
     a {
