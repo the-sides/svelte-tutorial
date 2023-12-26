@@ -23,3 +23,8 @@ button {
     display: block;
     color: black;
 }
+
+input[type="text"], 
+input[type="search"] {
+    color: #000;
+}
