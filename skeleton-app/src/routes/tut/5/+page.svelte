@@ -1,4 +1,7 @@
 <script>
+    let clicked = 0;
+    let m = { x: 0, y: 0 };
+
     function btnClicked() {
         clicked++;
     }
@@ -7,8 +10,6 @@
         m.x = event.clientX;
         m.y = event.clientY;
     }
-    let clicked = 0;
-    let m = { x: 0, y: 0 };
 </script>
 
 <section>

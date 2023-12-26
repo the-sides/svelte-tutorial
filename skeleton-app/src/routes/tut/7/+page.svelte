@@ -2,12 +2,10 @@
     const fruit = ['🍌','🍊','🍉','🍒','🍓','🍎']
     const getRandomFruit = () => fruit[Math.floor(Math.random() * 6)];
 
-    // Reactive Assignments
     let hands = 1;
     let cart = ['🍇'];
 
     function addToCart() {
-        // cart.push(getRandomFruit())
         let i = hands; 
         while(i-- > 0)
             cart = [...cart, getRandomFruit()]

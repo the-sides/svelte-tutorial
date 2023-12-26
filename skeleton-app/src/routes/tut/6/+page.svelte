@@ -7,7 +7,7 @@
     let cart = ['🍇'];
 
     function addToCart() {
-        quantity = ++quantity;
+        ++quantity;
         // cart.push(getRandomFruit())
         cart = [...cart, getRandomFruit()]
     }
@@ -22,6 +22,7 @@
 
 <section>
     <h1>Reactivity</h1>
+    <p>There are 3 kinds of reactivity in Svelte. Assignments, Declarations and Statements.</p>
     <button on:click={addToCart}>Add To Cart</button>
     <div>Remaining Inventory: {remaining}</div>
     <p>Cart (#{quantity}): {cart}</p>
